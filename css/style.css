@@ -139,8 +139,8 @@ ul.tab li a:focus, .active {
 }
 
 .project img {
-    max-width: 92%;
-    max-height: 78%;
+    max-width: 220px;
+    max-height: 240px;
     margin: auto;
     display: flex;
     border-radius: 10px;
