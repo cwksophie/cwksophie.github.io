@@ -137,3 +137,8 @@ ul.tab li a:focus, .active {
     transform-origin: left top;
     border: 0;
 }
+
+.project img {
+    width: 220px;
+    margin: auto;
+}
