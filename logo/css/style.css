@@ -1,0 +1,73 @@
+#logo {
+  height: 120px;
+  width: 120px;
+}
+
+.circle {
+  border-radius: 50%;
+  border-top: 10px solid red;
+  border-right: 10px solid red;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid transparent;
+  position: relative;
+  animation-name: spin;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  display: inline-block;
+}
+
+#c1 {
+  height: 100px;
+  width: 100px;
+  animation-duration: 10s;
+}
+
+#c2 {
+  border-top-color: orange;
+  border-right-color: orange;
+  height: 80px;
+  width: 80px;
+  animation-duration: 10s;
+}
+
+#c3 {
+  border-top-color: yellow;
+  border-right-color: yellow;
+  height: 60px;
+  width: 60px;
+  animation-duration: 10s;
+}
+
+#c4 {
+  border-top-color: green;
+  border-right-color: green;
+  height: 40px;
+  width: 40px;
+  animation-duration: 10s;
+}
+
+#c5 {
+  border-top-color: blue;
+  border-right-color: blue;
+  height: 20px;
+  width: 20px;
+  animation-duration: 10s;
+}
+
+#c6 {
+  border-top-color: purple;
+  border-right-color: purple;
+  height: 0;
+  width: 0;
+  animation-duration: 10s;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(720deg);
+  }
+}

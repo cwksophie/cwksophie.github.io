@@ -1,1 +1,65 @@
-Hello World
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Sophie's Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" type="text/css"
+          href="https://fonts.googleapis.com/css?family=Calligraffitti">
+</head>
+<body>
+    
+    <div id="bar">
+        <iframe src="logo/logo.html" id="logo"></iframe>
+        <span id="title">Sophie's Portfolio</span>
+    </div>
+    
+    <div id="about" class="content">
+        <div class="banner">About Me</div>
+        <div class="text">
+            <h3>My Background</h3>
+            <p>I grew up in Chicago with two younger brothers.  I went to college in
+            California at Caltech.  While there I studied Astrophysics and learned
+            how to program.  I moved to Seattle with my fiance a year and a half ago.</p>
+            <h3>My Programming History</h3>
+            <p>I first learned to program while at college.  The first language that 
+            I learned was Python, but since then I have also learned C, C++, Java, 
+            Scheme, and JavaScript.  While in college, I did research in astrophysics 
+            that taught me a lot about coding.  I use machine learning algorithms to 
+            classify types of stars.  After graduating from college, I started 
+            working for Coding with Kids where I learned even more about programming.</p>
+            <h3>My Hobbies</h3>
+            <p>When I am not programming or teaching, I like spending time with my 
+            fiance.  We like exploring Seattle and going to theater productions.  
+            I also enjoy cooking, dancing, and reading.</p>
+        </div>
+    </div>
+    
+    <div id="projects" class="content">
+        <ul class="tab">
+            <li><a href="javascript:void(0)" class="tablinks" onclick="openTab(event, 'Web')">Web Development</a></li>
+            <li><a href="javascript:void(0)" class="tablinks" onclick="openTab(event, 'Python')">Python</a></li>
+        </ul>
+        
+        <div id="Web" class="text tabcontent">
+            <h3>Web Development</h3>
+            <p>These are my web development projects.</p>
+                <div class="project">
+                    <a href="cat_css/index.html">Cat Animation</a>
+                    <div class="wrapper">
+                        <iframe src="cat_css/index.html"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="Python" class="text tabcontent">
+            <h3>Python</h3>
+            <p>These are my Python projects.</p> 
+            <p>Note:  All Python projects are created with Python 3.</p>
+        </div>
+    </div>
+    
+    <script src="js/index.js"></script>
+</body>
+</html>
